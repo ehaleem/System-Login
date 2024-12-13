@@ -1,0 +1,35 @@
+body{
+    background-color: #24353F;
+}
+.container{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    background-color: inherit;
+}
+h1{
+   color:#17A2B8;
+}
+.login > input{
+    background-color: #24353F;
+    color: white !important;
+    padding-left: 15px;
+}
+.login > input:focus{
+    background-color: #24353F;
+    box-shadow:  unset !important;
+}
+.login > input::placeholder{
+    color: rgba(255, 255, 255, 0.559);
+}
+.mybtn{
+    border: 1px solid rgb(9, 111, 183);
+    color: rgb(9, 111, 183);
+    transition: 0.4s ease all;
+    -webkit-transition: 0.4s ease all;
+    -moz-transition: 0.4s ease all;
+    -ms-transition: 0.4s ease all;
+    -o-transition: 0.4s ease all;
+}
+.mybtn:hover{
+    color: white;
+    background-color: rgb(9, 111, 183);
+}

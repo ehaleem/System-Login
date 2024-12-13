@@ -1,0 +1,52 @@
+/* Extra small screens */
+@media screen and (width <= 640px){
+    
+}
+
+
+
+
+/* Small screens */
+@media screen and (640px < width <= 768px){
+    
+    
+}
+
+
+
+
+/* med screens */
+@media screen and (768px < width <= 1024px){
+    
+}
+
+
+/* large screens */
+@media screen and (1024px < width <= 1280px){
+    .hero-section .texet h1 {
+        font-size: 50px;
+        text-wrap: nowrap;
+    }
+    .hero-section > div >p{
+        font-size: 22px;
+    }
+    .carousel-caption {
+        top: 110px;
+    }
+    .carousel-indicators{
+        bottom: -40px;
+    }
+    
+}
+
+
+
+
+
+/* Extra large screens */
+@media screen and (1280px < width <= 1536px){
+    
+    
+
+}
+
